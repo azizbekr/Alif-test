@@ -1,5 +1,5 @@
 <template>
-    <p>{{time}}</p>
+    <p class="time">{{time}}</p>
 </template>
 
 <script>
@@ -33,5 +33,7 @@
 </script>
 
 <style scoped>
-
+    .time{
+        font-size: 2em;
+    }
 </style>
